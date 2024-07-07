@@ -33,6 +33,7 @@ class MetasploitModule < Msf::Auxiliary
                       'DisclosureDate' => 'June 23 2024'
           ))
 
+    # For ease of use during my tests, some values for the URL http://testphp.vulnweb.com/listproducts.php?cat=1 are pre-prepared by default.
     register_options(
       [
         Opt::RHOSTS('testphp.vulnweb.com'),
