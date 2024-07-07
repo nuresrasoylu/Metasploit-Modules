@@ -78,7 +78,7 @@ class MetasploitModule < Msf::Auxiliary
       fail_with Failure::NotVulnerable, 'Target is not vulnerable'
     end
 
-    print_good(" Everything looks ok ! You can use SQL Map ...")
+    print_good(" Everything looks ok !\n The vulnerability you found appears to be Error based SQLi. \n You can use SQL Map ...")
 
   end
 end
